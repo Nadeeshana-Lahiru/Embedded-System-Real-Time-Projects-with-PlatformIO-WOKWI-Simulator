@@ -66,6 +66,19 @@ This project teaches:
 
 ---
 
+### 2. Temperature Monitoring with Fire Alert 🌡️🔥
+Uses a **DHT22 sensor** to measure temperature and displays it on an LCD.
+
+- **Red LED + Buzzer** → Activate when temperature ≥ 45°C (Fire Alert)  
+- **Green LED** → Indicates normal temperature  
+- **LCD Display** → Shows real-time temperature and status  
+
+*Learn sensor reading, LCD output, and warning system control in Arduino.*
+
+<img width="1920" height="1042" alt="Fire Alarm System using DHT22 LCD LED Buzzer" src="https://github.com/user-attachments/assets/9513fc4e-e1b9-451a-a0fd-62ac0ec4d970" />
+
+---
+
 ## 🧑‍💻 Author
 **Nadeeshana Lahiru Kavinda**  
 📍 Software Specialize Student, Dept of ICT, Faculty of Technology, South Eastern University of Sri Lanka.  

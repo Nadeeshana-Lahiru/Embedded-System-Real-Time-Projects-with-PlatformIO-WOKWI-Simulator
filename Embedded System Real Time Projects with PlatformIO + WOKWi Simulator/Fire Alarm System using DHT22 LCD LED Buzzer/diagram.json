@@ -1,0 +1,56 @@
+{
+  "version": 1,
+  "author": "nadeeshana lahiru",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-breadboard-half", "id": "bb1", "top": 6.6, "left": 406, "attrs": {} },
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": -28.2, "left": -10.2, "attrs": {} },
+    { "type": "wokwi-dht22", "id": "dht1", "top": -191.7, "left": -15, "attrs": {} },
+    {
+      "type": "wokwi-lcd1602",
+      "id": "lcd1",
+      "top": -214.4,
+      "left": 351.2,
+      "attrs": { "pins": "i2c" }
+    },
+    { "type": "wokwi-led", "id": "led1", "top": 15.6, "left": 445.4, "attrs": { "color": "red" } },
+    {
+      "type": "wokwi-buzzer",
+      "id": "bz1",
+      "top": -26.4,
+      "left": 520.2,
+      "attrs": { "volume": "0.1" }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "led2",
+      "top": 15.6,
+      "left": 483.8,
+      "attrs": { "color": "green" }
+    }
+  ],
+  "connections": [
+    [ "dht1:VCC", "uno:5V", "red", [ "v19.2", "h-28.8", "v278.4", "h172.8" ] ],
+    [ "dht1:GND", "uno:GND.2", "black", [ "v9.6", "h259.2", "v307.2", "h-124.8" ] ],
+    [ "dht1:SDA", "uno:13", "green", [ "v28.8", "h105.7" ] ],
+    [ "lcd1:GND", "uno:GND.2", "black", [ "h-67.2", "v422.4", "h-134.4" ] ],
+    [ "lcd1:VCC", "uno:5V", "red", [ "h-48", "v441.7", "h-153.6" ] ],
+    [ "lcd1:SDA", "uno:A4", "green", [ "h-28.8", "v384.2", "h-86.4" ] ],
+    [ "lcd1:SCL", "uno:A5", "green", [ "h-19.2", "v345.9", "h-86.4" ] ],
+    [ "uno:GND.2", "bb1:bn.1", "black", [ "v76.7", "h282.3" ] ],
+    [ "uno:5V", "bb1:bp.2", "red", [ "v105.5", "h301.4" ] ],
+    [ "led1:C", "bb1:bn.3", "black", [ "v0" ] ],
+    [ "led1:A", "bb1:5t.a", "", [ "$bb" ] ],
+    [ "led1:C", "bb1:4t.a", "", [ "$bb" ] ],
+    [ "bz1:1", "bb1:13t.a", "", [ "$bb" ] ],
+    [ "bz1:2", "bb1:14t.a", "", [ "$bb" ] ],
+    [ "led2:A", "bb1:9t.a", "", [ "$bb" ] ],
+    [ "led2:C", "bb1:8t.a", "", [ "$bb" ] ],
+    [ "bb1:8t.b", "bb1:bn.6", "black", [ "v0" ] ],
+    [ "bz1:1", "bb1:bn.11", "black", [ "v0" ] ],
+    [ "uno:12", "bb1:5t.b", "green", [ "v-19.2", "h250.1", "v124.8" ] ],
+    [ "uno:11", "bb1:9t.c", "green", [ "v-28.8", "h250.2", "v134.4" ] ],
+    [ "uno:10", "bb1:14t.d", "green", [ "v-38.4", "h250.3", "v153.6" ] ]
+  ],
+  "dependencies": {}
+}

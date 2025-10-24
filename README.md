@@ -79,6 +79,20 @@ Uses a **DHT22 sensor** to measure temperature and displays it on an LCD.
 
 ---
 
+💡 **Example Project: Car Reverse Parking Assistance System using Ultrasonic Sensor**  
+To test this setup, I simulated a simple **Parking Assistance System** that detects the distance of nearby objects using an **ultrasonic sensor** and provides visual and sound alerts. 🚗📏🔊  
+
+🔹 The **HC-SR04 ultrasonic sensor** measures the distance between the car and an obstacle.  
+🔹 The **LCD display** shows messages like “Safe Distance”, “Object Nearby”, and “Object Very Close”.  
+🔹 The **Yellow LED** lights up when an object is moderately close, and the **Red LED** with **buzzer** activates when it’s too close.  
+🔹 The system updates the distance on the LCD every second for real-time feedback.  
+
+This project helped me understand how to use **ultrasonic sensors** for object detection and create **real-world safety systems** like parking assistance. ⚙️📟🚘  
+
+<img width="1920" height="1042" alt="car reverse parking assistance system using ultrasonic sensor" src="https://github.com/user-attachments/assets/4306a250-8f3a-4e45-b617-8510852665c9" />
+
+---
+
 ## 🧑‍💻 Author
 **Nadeeshana Lahiru Kavinda**  
 📍 Software Specialize Student, Dept of ICT, Faculty of Technology, South Eastern University of Sri Lanka.  

@@ -1,0 +1,52 @@
+{
+  "version": 1,
+  "author": "nadeeshana lahiru",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": 115.8, "left": -221.4, "attrs": {} },
+    { "type": "wokwi-hc-sr04", "id": "ultrasonic1", "top": -65.7, "left": 15.1, "attrs": {} },
+    {
+      "type": "wokwi-lcd1602",
+      "id": "lcd1",
+      "top": 102.4,
+      "left": 159.2,
+      "attrs": { "pins": "i2c" }
+    },
+    { "type": "wokwi-led", "id": "led1", "top": -51.6, "left": -169, "attrs": { "color": "red" } },
+    {
+      "type": "wokwi-buzzer",
+      "id": "bz1",
+      "top": -55.2,
+      "left": -75,
+      "attrs": { "volume": "0.1" }
+    },
+    { "type": "wokwi-dht22", "id": "dht1", "top": -57.3, "left": -322.2, "attrs": {} },
+    {
+      "type": "wokwi-led",
+      "id": "led3",
+      "top": -51.6,
+      "left": -121,
+      "attrs": { "color": "green" }
+    }
+  ],
+  "connections": [
+    [ "ultrasonic1:VCC", "uno:5V", "red", [ "v307.2", "h-153.6" ] ],
+    [ "ultrasonic1:TRIG", "uno:3", "blue", [ "v19.2", "h-77.2" ] ],
+    [ "uno:2", "ultrasonic1:ECHO", "green", [ "v-67.2", "h90.5" ] ],
+    [ "ultrasonic1:GND", "uno:GND.2", "black", [ "v326.4", "h-164.4" ] ],
+    [ "uno:GND.2", "lcd1:GND", "black", [ "v47.9", "h167.1", "v-220.8" ] ],
+    [ "lcd1:VCC", "uno:5V", "red", [ "h-76.8", "v192.1", "h-144" ] ],
+    [ "lcd1:SDA", "uno:A4", "blue", [ "h-28.8", "v230.6", "h-115.2" ] ],
+    [ "uno:A5", "lcd1:SCL", "green", [ "v95.9", "h109.9", "v-230.4" ] ],
+    [ "uno:GND.1", "bz1:1", "black", [ "v-48", "h19.5" ] ],
+    [ "dht1:VCC", "uno:5V", "red", [ "v278.4", "h240" ] ],
+    [ "uno:GND.2", "dht1:GND", "black", [ "v47.9", "h-216.9" ] ],
+    [ "dht1:SDA", "uno:4", "green", [ "v38.4", "h288.1" ] ],
+    [ "uno:11", "led3:A", "green", [ "v-105.6", "h-9" ] ],
+    [ "bz1:2", "uno:10", "red", [ "v57.6", "h-29.2" ] ],
+    [ "led3:C", "uno:GND.1", "black", [ "v0" ] ],
+    [ "uno:GND.1", "led1:C", "black", [ "v-48", "h-47.7" ] ],
+    [ "uno:12", "led1:A", "red", [ "v-76.8", "h-57.1" ] ]
+  ],
+  "dependencies": {}
+}

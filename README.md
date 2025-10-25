@@ -93,6 +93,21 @@ This project helped me understand how to use **ultrasonic sensors** for object d
 
 ---
 
+### 3. Smart Environment & Obstacle Detection System using DHT22 and Ultrasonic Sensor 🌡️📏🔔
+To test this setup, I simulated a **Smart Monitoring System** that measures **temperature** and **distance** using the **DHT22** and **HC-SR04** sensors. 
+
+🔹 The **DHT22 sensor** reads real-time **temperature** data and displays it on the LCD.  
+🔹 The **HC-SR04 ultrasonic sensor** measures the **distance** to nearby objects.  
+🔹 If the **temperature exceeds 35°C**, the **red LED** turns ON and the **buzzer** alerts high temperature.  
+🔹 If an **object is detected within 10 cm**, the buzzer also activates, warning about proximity.  
+🔹 The **LCD** shows both **temperature** and **distance** values with clear status indicators.  
+
+This project helped me understand how to **combine multiple sensors** for smart environmental monitoring and obstacle detection — essential for IoT and safety-based embedded systems. ⚙️🌡️📟🚨  
+
+<img width="1920" height="1043" alt="Smart Weather and Object Alert System using DHT22" src="https://github.com/user-attachments/assets/88e9e125-7b7f-4376-b816-801994ea0e06" />
+
+---
+
 ## 🧑‍💻 Author
 **Nadeeshana Lahiru Kavinda**  
 📍 Software Specialize Student, Dept of ICT, Faculty of Technology, South Eastern University of Sri Lanka.  

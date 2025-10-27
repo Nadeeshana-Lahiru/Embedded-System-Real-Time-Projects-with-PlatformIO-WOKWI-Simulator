@@ -108,7 +108,7 @@ This project helped me understand how to **combine multiple sensors** for smart 
 
 ---
 
-# 6. Smart Home Security System with PIR Sensor, LCD, LED, and Buzzer 🚨🏠📟 
+# 5. Smart Home Security System with PIR Sensor, LCD, LED, and Buzzer 🚨🏠📟 
 To test this setup, I simulated a simple **Smart Home Security System** that detects motion using a **PIR sensor** and provides **visual and sound alerts** through an **LED**, **buzzer**, and **LCD display**. 
 
 🔹 The **PIR sensor (pin 2)** detects human motion in the monitored area.  

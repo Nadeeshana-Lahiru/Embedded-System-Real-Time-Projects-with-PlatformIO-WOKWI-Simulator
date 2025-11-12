@@ -123,6 +123,20 @@ This project helped me understand how to **integrate multiple components** — s
 
 ---
 
+# 6. Maze Control Game with Joystick and Dual Servos 🎮🌀⚙️  
+To test this setup, I simulated a simple **Maze Control Game** using a **joystick module** and **two servo motors** to tilt a maze platform.  
+
+🔹 The **joystick X-axis (A0)** controls the **Servo on pin 9**, tilting the maze **left and right**.  
+🔹 The **joystick Y-axis (A1)** controls the **Servo on pin 10**, tilting the maze **forward and backward**.  
+🔹 Moving the joystick changes the servo angles smoothly, allowing the ball on the maze to **roll in the desired direction**.  
+🔹 The project demonstrates **analog input mapping**, **servo motor control**, and **real-time movement response**.  
+
+This project helped me understand how to **integrate analog sensors with actuators** to create a **fun and interactive Arduino-based motion control game**. ⚙️🧠🎯  
+
+<img width="1920" height="1046" alt="maze game with joystick and servo mortors" src="https://github.com/user-attachments/assets/e5b54d02-5205-4b05-9566-a60e75e6246a" />
+
+---
+
 ## 🧑‍💻 Author
 **Nadeeshana Lahiru Kavinda**  
 📍 Software Specialize Student, Dept of ICT, Faculty of Technology, South Eastern University of Sri Lanka.  

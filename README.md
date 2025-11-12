@@ -66,7 +66,7 @@ This project teaches:
 
 ---
 
-### 2. Temperature Monitoring with Fire Alert 🌡️🔥
+# 2. Temperature Monitoring with Fire Alert 🌡️🔥
 Uses a **DHT22 sensor** to measure temperature and displays it on an LCD.
 
 - **Red LED + Buzzer** → Activate when temperature ≥ 45°C (Fire Alert)  
@@ -79,7 +79,7 @@ Uses a **DHT22 sensor** to measure temperature and displays it on an LCD.
 
 ---
 
-### 3. Car Reverse Parking Assistance System using Ultrasonic Sensor 📟🚘
+# 3. Car Reverse Parking Assistance System using Ultrasonic Sensor 📟🚘
 To test this setup, I simulated a simple **Parking Assistance System** that detects the distance of nearby objects using an **ultrasonic sensor** and provides visual and sound alerts. 🚗📏🔊  
 
 🔹 The **HC-SR04 ultrasonic sensor** measures the distance between the car and an obstacle.  
@@ -93,7 +93,7 @@ This project helped me understand how to use **ultrasonic sensors** for object d
 
 ---
 
-### 3. Smart Environment & Obstacle Detection System using DHT22 and Ultrasonic Sensor 🌡️📏🔔
+# 4. Smart Environment & Obstacle Detection System using DHT22 and Ultrasonic Sensor 🌡️📏🔔
 To test this setup, I simulated a **Smart Monitoring System** that measures **temperature** and **distance** using the **DHT22** and **HC-SR04** sensors. 
 
 🔹 The **DHT22 sensor** reads real-time **temperature** data and displays it on the LCD.  
@@ -105,6 +105,21 @@ To test this setup, I simulated a **Smart Monitoring System** that measures **te
 This project helped me understand how to **combine multiple sensors** for smart environmental monitoring and obstacle detection — essential for IoT and safety-based embedded systems. ⚙️🌡️📟🚨  
 
 <img width="1920" height="1043" alt="Smart Weather and Object Alert System using DHT22" src="https://github.com/user-attachments/assets/88e9e125-7b7f-4376-b816-801994ea0e06" />
+
+---
+
+# 5. Smart Home Security System with PIR Sensor, LCD, LED, and Buzzer 🚨🏠📟 
+To test this setup, I simulated a simple **Smart Home Security System** that detects motion using a **PIR sensor** and provides **visual and sound alerts** through an **LED**, **buzzer**, and **LCD display**. 
+
+🔹 The **PIR sensor (pin 2)** detects human motion in the monitored area.  
+🔹 When **motion is detected**, the **red LED (pin 13)** lights up, the **buzzer (pin 12)** sounds, and the LCD displays **“Motion Detected”**.  
+🔹 When **no motion** is detected, the system shows **“Area Secure”**, turns off the LED, and silences the buzzer.  
+🔹 The LCD provides **real-time status updates** for clear user feedback.  
+
+This project helped me understand how to **integrate multiple components** — sensors, indicators, and displays — to build a **responsive and interactive home security system** using Arduino. ⚙️🧠🔔  
+
+
+<img width="1920" height="1045" alt="Smart Home Security System with PIR sensor LCD LED BUZZER" src="https://github.com/user-attachments/assets/66393521-864f-427e-89ff-256446b026cd" />
 
 ---
 

@@ -158,6 +158,8 @@ This project helped me understand how to **control multiple actuators using a si
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Nadeeshana%20Lahiru-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/nadeeshana-lahiru-kavinda-991645244)
 
+![maze game](https://github.com/user-attachments/assets/50437703-7bc3-4d27-956e-c0334fd2efa6)
+
 ---
 
 ## 🏷️ License

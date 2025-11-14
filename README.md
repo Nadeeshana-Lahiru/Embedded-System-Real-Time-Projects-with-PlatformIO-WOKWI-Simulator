@@ -137,6 +137,20 @@ This project helped me understand how to **integrate analog sensors with actuato
 
 ---
 
+# 7. Robotic Arm Control with Joystick and Dual Servos 🤖🕹️⚙️  
+For this project, I built a simple **two-axis robotic arm** that is controlled using a **single joystick module**. The joystick smoothly moves two servo motors, allowing the arm to rotate and lift like a basic robotic system.
+
+- 🔹 The **joystick X-axis (A0)** controls the **Servo on pin 9**, moving the arm **left and right**.  
+- 🔹 The **joystick Y-axis (A1)** controls the **Servo on pin 10**, moving the arm **up and down**.  
+- 🔹 Smooth servo motion is achieved by gradually updating the angle, giving the arm **slow and controlled movement**.  
+- 🔹 The project demonstrates **analog sensor reading**, **servo angle mapping**, and **real-time motion control**.  
+
+This project helped me understand how to **control multiple actuators using a single analog input**, creating a **simple and responsive Arduino-based robotic arm**. ⚙️🤖🎯  
+
+<img width="1920" height="1037" alt="Robotic Arm with 2 Servo anf Joystick" src="https://github.com/user-attachments/assets/66a79cda-b450-472a-96c8-1eb1434511a0" />
+
+---
+
 ## 🧑‍💻 Author
 **Nadeeshana Lahiru Kavinda**  
 📍 Software Specialize Student, Dept of ICT, Faculty of Technology, South Eastern University of Sri Lanka.  

@@ -135,6 +135,8 @@ This project helped me understand how to **integrate analog sensors with actuato
 
 <img width="1920" height="1046" alt="maze game with joystick and servo mortors" src="https://github.com/user-attachments/assets/e5b54d02-5205-4b05-9566-a60e75e6246a" />
 
+<img width="1920" height="1046" alt="maze game with joystick and servo mortors" src="https://github.com/user-attachments/assets/50437703-7bc3-4d27-956e-c0334fd2efa6" />
+
 ---
 
 # 7. Robotic Arm Control with Joystick and Dual Servos 🤖🕹️⚙️  
@@ -157,8 +159,6 @@ This project helped me understand how to **control multiple actuators using a si
 💻 *Embedded Systems | IoT | Software Development Enthusiast | Full Stack Developer*
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Nadeeshana%20Lahiru-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/nadeeshana-lahiru-kavinda-991645244)
-
-![maze game](https://github.com/user-attachments/assets/50437703-7bc3-4d27-956e-c0334fd2efa6)
 
 ---
 

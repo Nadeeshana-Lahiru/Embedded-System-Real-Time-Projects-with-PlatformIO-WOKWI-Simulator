@@ -171,11 +171,15 @@ This project helped me understand **sensor fusion**, **real-time decision making
 
 ### 📸 Project Images – Smart Car Parking System
 
-|----------------------|---------------------|
-| ![smart_car_parking_system_4](https://github.com/user-attachments/assets/9c7b02f1-0375-4e71-b0f6-6d2d49fb355f) | ![smart_car_parking_system_3](https://github.com/user-attachments/assets/52b567fc-646e-4a05-b57c-612a3270798e) |
+### 📸 Project Images – Smart Car Parking System
 
-|--------------------|----------------------|
-| ![smart_car_parking_system_2](https://github.com/user-attachments/assets/f8fa13e7-7699-4a5a-ae63-f3a97d2d40aa) | ![smart_car_parking_system_1](https://github.com/user-attachments/assets/fd14945d-4a13-40b6-80e1-2db305e1e62a) |
+| 🚗 Entry & Exit Detection | 📟 LCD & Slot Status |
+|--------------------------|----------------------|
+| <img src="https://github.com/user-attachments/assets/9c7b02f1-0375-4e71-b0f6-6d2d49fb355f" width="800" height="450"/> | <img src="https://github.com/user-attachments/assets/52b567fc-646e-4a05-b57c-612a3270798e" width="800" height="450"/> |
+
+| 🔦 IR Sensor & LED | ⚙️ Complete System View |
+|-------------------|------------------------|
+| <img src="https://github.com/user-attachments/assets/f8fa13e7-7699-4a5a-ae63-f3a97d2d40aa" width="800" height="450"/> | <img src="https://github.com/user-attachments/assets/fd14945d-4a13-40b6-80e1-2db305e1e62a" width="800" height="450"/> |
 
 ---
 

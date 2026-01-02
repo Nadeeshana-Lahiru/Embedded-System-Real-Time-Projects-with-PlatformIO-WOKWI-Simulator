@@ -153,6 +153,32 @@ This project helped me understand how to **control multiple actuators using a si
 
 ---
 
+# 8. Smart Car Parking System using Arduino 🚗🅿️⚙️  
+
+For this project, I developed an **Arduino-based Smart Car Parking System** that automatically manages **vehicle entry, exit, and parking slot availability** using **ultrasonic sensors, servo motors, an IR sensor, LED indicator, and an I2C LCD display**.
+
+- 🔹 **Ultrasonic Sensor (Entry Gate)** detects a vehicle within **5–10 cm** and opens the **entry gate servo** if parking slots are available.  
+- 🔹 **Ultrasonic Sensor (Exit Gate)** detects exiting vehicles and opens the **exit gate servo**, updating the slot count correctly.  
+- 🔹 **Servo Motors** act as **automatic barriers**, opening and closing with time-based control.  
+- 🔹 **I2C LCD Display (16×2)** shows real-time messages such as **WELCOME**, **Car Entering**, **Car Exiting**, **Parking Full**, **Parking Empty**, and **Available Slots**.  
+- 🔹 **IR Sensor with LED Indicator** detects nearby motion and turns the **LED ON for 2 seconds** as a visual alert.  
+- 🔹 **Slot Management Logic** prevents:
+  - Entry when parking is **FULL**
+  - Exit errors using a **cooldown timer**
+  - False sensor triggering using distance validation
+
+This project helped me understand **sensor fusion**, **real-time decision making**, **servo-based automation**, and **smart parking management using Arduino**, simulating a **real-world embedded system solution**. 🚦📟🤖  
+
+### 📸 Project Images – Smart Car Parking System
+
+|----------------------|---------------------|
+| ![smart_car_parking_system_4](https://github.com/user-attachments/assets/9c7b02f1-0375-4e71-b0f6-6d2d49fb355f) | ![smart_car_parking_system_3](https://github.com/user-attachments/assets/52b567fc-646e-4a05-b57c-612a3270798e) |
+
+|--------------------|----------------------|
+| ![smart_car_parking_system_2](https://github.com/user-attachments/assets/f8fa13e7-7699-4a5a-ae63-f3a97d2d40aa) | ![smart_car_parking_system_1](https://github.com/user-attachments/assets/fd14945d-4a13-40b6-80e1-2db305e1e62a) |
+
+---
+
 ## 🧑‍💻 Author
 **Nadeeshana Lahiru Kavinda**  
 📍 Software Specialize Student, Dept of ICT, Faculty of Technology, South Eastern University of Sri Lanka.  
